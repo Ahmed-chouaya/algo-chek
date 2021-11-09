@@ -1,0 +1,63 @@
+Checkpoint Algorithm :
+
+ 
+*****************************************************
+
+//* number of characters in a sentence *//
+//*number of words in a sentence*//
+//*number of vowels in the sentence*//
+
+*****************************************************
+
+PS: String index begins with 0 , string ends with '.'
+*****************************************************
+
+
+algorithm Sentence
+
+var 
+str: string ;
+numchar: integer:=0 ;                     //*number of characters*//
+numword : integer:=0 ;                        //*number of words*//
+numvowels : integer:=0 ;                    //* number of vowels*//
+i : integer :=0
+0)begin
+
+
+write ("write a sentence here.");    //*declare a sentence*//
+
+read(str);
+
+While (str[i] < > ".") Do
+
+
+if (str[i] < >  ".")
+
+numchar := numchar + 1 ;
+
+End if
+
+    
+
+if (str[i]  = " ")
+
+numword := numword + 1 ;
+
+End if
+
+
+if (str[i] = 'a' OR str[i] = 'e' OR str[i] = 'i' OR
+str[i] = 'o' OR str[i] = 'u' OR str[i] = 'y');
+
+numvowels := numvowels + 1 ;
+
+End if
+
+
+i := i + 1 
+End While
+
+18) write (numchar);
+19) write (numword);
+20) write (numvowels);
+21)End Sentence 
